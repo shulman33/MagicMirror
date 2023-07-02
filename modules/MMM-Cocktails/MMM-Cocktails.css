@@ -1,0 +1,29 @@
+.MMM-Cocktails .post-container {
+    margin: 5px 5px 0 0;  
+    border: 1px solid #333;
+    overflow: auto;
+}
+.MMM-Cocktails .post-thumb {
+    float: left;
+    width: 30%;               
+    height: 30%;
+    margin: 10px 10px 10px 10px;
+}
+.MMM-Cocktails .post-thumb img {
+    display: block;
+    width: 110px;
+    height: 100px;
+}
+.MMM-Cocktails .post-content {
+    margin-left: 89px;
+}
+.MMM-Cocktails .post-title {
+    font-weight: bold;
+    font-size: 75%;
+    padding: 9px;
+    background: #f2f2f2
+} 
+.MMM-Cocktails .inst {
+	margin-left: 5px;
+	margin-right: 5px;
+}
