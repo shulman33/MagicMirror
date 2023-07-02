@@ -1,7 +1,7 @@
-var NodeHelper = require("node_helper");
-var fetch = require("node-fetch");
+import { create } from "node_helper";
+import { fetch } from "node-fetch";
 
-module.exports = NodeHelper.create({
+export default create({
   start: function () {
     console.log("MMM-PirkeiAvot helper started...");
   },
