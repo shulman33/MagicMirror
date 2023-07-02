@@ -63,11 +63,9 @@ let config = {
 			}
 		},
 		{
-			module: "MMM-Cocktails",
+			module: "MMM-DailyPirkeiAvos",
 			position: "lower_third", // Editable footprint - Fits anywhere.
 			config: {
-				maxWidth: "400px",     // See provided .css file for full customization options
-				header: "",
 			}
 		},
 		{
