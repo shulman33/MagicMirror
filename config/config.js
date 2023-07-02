@@ -63,8 +63,12 @@ let config = {
 			}
 		},
 		{
-			module: "compliments",
-			position: "lower_third"
+			module: "MMM-Cocktails",
+			position: "lower_third", // Editable footprint - Fits anywhere.
+			config: {
+				maxWidth: "400px",     // See provided .css file for full customization options
+				header: "",
+			}
 		},
 		{
 			module: "weather",
@@ -72,18 +76,6 @@ let config = {
 			config: {
 				weatherProvider: "openweathermap",
 				type: "current",
-				location: "New York",
-				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
-				apiKey: "YOUR_OPENWEATHER_API_KEY"
-			}
-		},
-		{
-			module: "weather",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				weatherProvider: "openweathermap",
-				type: "forecast",
 				location: "New York",
 				locationID: "5128581", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				apiKey: "YOUR_OPENWEATHER_API_KEY"
